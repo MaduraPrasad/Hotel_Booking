@@ -3,7 +3,9 @@ import Navbar from '../../components/navbar/Navbar';
 import Header from "../../components/Header/Header";
 import Featured from "../../components/features/features";
 import PropertyList from "../../components/propertyL/propertyList";
-import FeaturedPropertie from "../../components/featuredProperties/featuredPropertie"
+import FeaturedPropertie from "../../components/featuredProperties/featuredPropertie";
+import MaillList from "../../components/MaillList/MaillList"
+import Footer from "../../components/Footer/footer"
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <PropertyList />
         <h1 className="homeTitle">Homes guest love</h1>
         <FeaturedPropertie />
+        <MaillList />
+        <Footer />
       </div>
     </div>
 
